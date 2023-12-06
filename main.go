@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"go-golang/ejercicios"
+	"go-golang/keyboard"
 )
 
 func  main()  {
@@ -25,7 +24,10 @@ func  main()  {
 		// 	fmt.Printf("%s \n", os)
 		// }
 
-		numero, texto := ejercicios.ConvNumerico("500")
-		fmt.Println(numero)
-		fmt.Println(texto)
+		// numero, texto := ejercicios.ConvNumerico("500")
+		// fmt.Println(numero)
+		// fmt.Println(texto)
+		
+		keyboard.IngresoNumeros()
+
 }
