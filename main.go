@@ -1,35 +1,35 @@
 package main
 
-import (
-	"go-golang/iterations"
-)
+import "go-golang/exercises"
 
-func  main()  {
-		// estado, texto := variables.ConviertoaTexto(1588)
-		// fmt.Println(estado)
-		// fmt.Println(texto)
-		
-		// if os := runtime.GOOS; os=="linux" || os=="OS X."{
-		// 	fmt.Println("Esto no es Windows, es:", os)
-		// } else {
-		// 	fmt.Println("Esto es:", os)
-		// }
+func main() {
+	// estado, texto := variables.ConviertoaTexto(1588)
+	// fmt.Println(estado)
+	// fmt.Println(texto)
 
-		// switch os := runtime.GOOS; os {
-		// case "linux": 
-		// 	fmt.Println("Esto es Linux")
-		// case "darwin":
-		// 	fmt.Println("Esto es Darwin")
-		// default:
-		// 	fmt.Printf("%s \n", os)
-		// }
+	// if os := runtime.GOOS; os=="linux" || os=="OS X."{
+	// 	fmt.Println("Esto no es Windows, es:", os)
+	// } else {
+	// 	fmt.Println("Esto es:", os)
+	// }
 
-		// numero, texto := ejercicios.ConvNumerico("500")
-		// fmt.Println(numero)
-		// fmt.Println(texto)
-		
-		// keyboard.IngresoNumeros()
+	// switch os := runtime.GOOS; os {
+	// case "linux":
+	// 	fmt.Println("Esto es Linux")
+	// case "darwin":
+	// 	fmt.Println("Esto es Darwin")
+	// default:
+	// 	fmt.Printf("%s \n", os)
+	// }
 
-		iterations.Iterar()
+	// numero, texto := ejercicios.ConvNumerico("500")
+	// fmt.Println(numero)
+	// fmt.Println(texto)
+
+	// keyboard.IngresoNumeros()
+
+	// iterations.Iterar()
+
+	exercises.MultiplyTable()
 
 }
