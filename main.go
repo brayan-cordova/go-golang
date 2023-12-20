@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-golang/keyboard"
+	"go-golang/iterations"
 )
 
 func  main()  {
@@ -28,6 +28,8 @@ func  main()  {
 		// fmt.Println(numero)
 		// fmt.Println(texto)
 		
-		keyboard.IngresoNumeros()
+		// keyboard.IngresoNumeros()
+
+		iterations.Iterar()
 
 }
